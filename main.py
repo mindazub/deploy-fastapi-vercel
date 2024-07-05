@@ -15,5 +15,9 @@ def home():
 def home():
     return {"message": "Hello frogs"}
 
+@app.get("/fourth")
+def home():
+    return {"message": "May the fourth be with you!"}
+
 
     
