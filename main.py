@@ -7,7 +7,13 @@ app = FastAPI()
 def home():
     return {"message": "Hello World"}
     
+@app.get("/third")
+def home():
+    return {"message": "Hello third"}
+
 @app.get("/frogs")
 def home():
-    return {"message": "Hello Frogs"}
+    return {"message": "Hello frogs"}
+
+
     
